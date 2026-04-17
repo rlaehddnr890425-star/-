@@ -29,18 +29,37 @@ While that happens, **you earn.**
 ## 1. Overview
 
 ### 1.1 Name
-**Neuroa** — an open content network where AI agents upload, discover, learn from, and monetize content.
+**Neuroa** — an **AI-native open matching network** where anyone (individuals, creators, businesses, governments, AI agents) uploads, and the platform auto-routes each upload to wherever revenue can be generated.
 
-### 1.2 Context
+### 1.2 3-in-1 Positioning
+
+```
+┌─────────────────┬──────────────────────────┬─────────────────────┐
+│  YouTube-style  │   Talent Agency-style     │   Search Engine-style│
+│  Internal $    │   External Matching $      │   AI Discovery $     │
+├─────────────────┼──────────────────────────┼─────────────────────┤
+│ View-based ads │ Commerce platform listing  │ Chat AI citation pay │
+│ In-video affil. │ Brand licensing            │ Claude MCP calls     │
+│ Subs / tips    │ Cross-platform repost      │ Gemini source slot   │
+│                │ Talent / writer scouting   │ AI training data     │
+│                │ Govt tenders / contracts   │                     │
+└─────────────────┴──────────────────────────┴─────────────────────┘
+```
+One uploader → three parallel revenue streams.
+
+### 1.3 Context
 - July 2025: YouTube's "Inauthentic Content" policy restricts AI monetization
 - Chat AIs (ChatGPT / Claude / Gemini / Perplexity) emerge as the new gateway for search and commerce
 - Morgan Stanley: 50% of online shoppers will use AI agents by 2030
 - No open platform exists to absorb the creator–AI–consumer loop
+- Solo creators, SMBs, and public agencies all lack an AI-driven matching channel
 
-### 1.3 Three Core Strategies
-1. **Zero-Click Seller Onboarding** — sellers auto-register through their everyday chatbot
+### 1.4 Five Core Strategies
+1. **Zero-Click Onboarding** — uploaders auto-register through their everyday chatbot
 2. **Context-Triggered Fetch** — chat AIs call Neuroa automatically from intent context
-3. **Organic Distribution** — open source drives natural adoption without partnerships
+3. **Universal Matching** ⭐ NEW — each upload auto-routes across 16 external matching cells (C/B/G × C/B/G/AI)
+4. **3-Layer Monetization** ⭐ NEW — internal views + external matching + AI discovery in parallel
+5. **Organic Distribution** — open source drives natural adoption without partnerships
 
 ---
 
@@ -53,29 +72,56 @@ While that happens, **you earn.**
 
 ---
 
-## 3. Solution — 4 Layers
+## 3. Solution — 5-Layer Universal Matching Architecture
 
-### Layer 1. Creator — AI uploads
+### Layer 1. Upload Layer — Anyone uploads
+- **All uploader types**: individuals / creators / D2C·SaaS·manufacturers / public agencies·NGOs / AI agents
+- **All formats**: video, image, audio, text, code, docs, formulas, service specs
 - Open REST/GraphQL APIs (OpenAPI 3.1 published)
 - Open-source SDKs: Python / TypeScript / Rust (MIT)
 - Chat AI connectors: ChatGPT Actions, Claude MCP, Gemini Extensions
 - Automatic AI Basic Act compliance metadata
 
-### Layer 2. Intelligence — AI discovers
+### Layer 2. Intelligence Layer — AI discovers
 - PostgreSQL + pgvector semantic search
 - Automatic indexing of video, audio, text, objects
 - Structured JSON ready for direct AI citation
 - Public Context-Triggered Fetch Tool Spec
 
-### Layer 3. Monetization — AI earns
-- Auto product detection → affiliate link injection
-- Auto fair-trade disclosure attachment
-- Real-time Stripe Connect settlement
+### Layer 3. Matching Layer ⭐ NEW — Auto-routing exchange
+- One upload routed to **multiple matching channels** simultaneously
+- **External commerce**: Coupang, Amazon, 11st, Shopify (B2C)
+- **External ads**: GDN, Meta Ads, X Ads (B2B)
+- **External video**: TikTok, Instagram, X auto-redistribution
+- **Talent scouting**: agencies, studios, research labs (C2B)
+- **Government tenders**: Korea G2B (나라장터), R&D programs (B2G/C2G)
+- **AI training market**: data licensing exchange (B2AI/C2AI)
+- Success-based fee only (no win, no fee)
 
-### Layer 4. Human UX — Humans convert
+### Layer 4. Monetization Layer — 3-stream revenue
+- **Internal**: view-based ads + in-video affiliate
+- **External**: matching success fees
+- **AI**: chat AI citation pay-per-call + training data licensing
+- Auto fair-trade disclosure attachment
+- Real-time Stripe Connect / Toss Payments settlement
+
+### Layer 5. Human UX Layer — Humans convert
 - 0.3-second-impact frontend
 - Emotional persuasion + trust signals + 3-click checkout
 - Benchmarked against Apple / Linear / Shopify
+
+---
+
+### 3.X 4-Way Connectivity Matrix
+
+|              | → Consumer (C)     | → Business (B)        | → Government (G)     | → AI Agent           |
+|--------------|--------------------|----------------------|----------------------|----------------------|
+| **Consumer (C)** | C2C recommendation | C2B freelance/supply | C2G civic input      | C2AI training data   |
+| **Business (B)** | B2C commerce       | B2B SaaS/wholesale   | B2G procurement      | B2AI ads/citation    |
+| **Government (G)** | G2C public info  | G2B grants/R&D       | G2G inter-agency     | G2AI policy data     |
+| **AI Agent**    | AI2C recommendation | AI2B matching        | AI2G analytics       | AI2AI knowledge swap |
+
+→ Revenue flows across all 16 cells. **An n×n exchange, not a one-way platform.**
 
 ---
 
@@ -195,14 +241,30 @@ M12+: Anthropic / OpenAI reach out first
 
 ## 7. Revenue Model
 
-### Six streams
+### 3-Layer Revenue Structure (Uploader Perspective)
+
+```
+One upload
+   │
+   ├─ Layer 1 [Internal] ── view ads, in-video affiliate, tips
+   │
+   ├─ Layer 2 [External] ── commerce listing, brand licensing,
+   │                        cross-platform repost, talent scouting,
+   │                        gov tenders  (success-based fees)
+   │
+   └─ Layer 3 [AI] ──────── chat AI citation pay-per-call,
+                            training data licensing
+```
+
+### Seven Platform Streams
 | Stream | Mechanism | Margin |
 |--------|-----------|--------|
 | Ads | In/around video ads | 45% |
 | Affiliate | Purchase commission | 30% |
+| **Matching Fees** ⭐ | External routing success fee | 25% |
 | B2B Subscription | Starter/Pro/Business/Enterprise | 70%+ |
 | API fees | Enterprise tier | 70%+ |
-| Data licensing | Anonymized AI rec data | 80%+ |
+| Data licensing | Anonymized AI rec/training data | 80%+ |
 | Premium verification | Verified badges | 90%+ |
 
 ### B2B Seller Plans

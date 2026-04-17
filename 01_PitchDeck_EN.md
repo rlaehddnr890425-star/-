@@ -36,11 +36,18 @@ Brand: **Neuroa** (working name; final subject to trademark search)
 ## 1. Cover
 
 **Neuroa**
-The world's first open multimodal content network for AI agents.
+The world's first **AI-native open matching network** — anyone uploads, everything routes somewhere, revenue follows.
+
+### 3-in-1 Positioning
+```
+[YouTube Replacement]   [Talent Agency]              [AI Search Engine]
+ Internal views/ads   + External matching/scouting + Chat AI citation/calls
+```
+One upload → three monetization layers running in parallel.
 
 - Seed Round: **USD 400K (KRW 500M)**
 - Launch: Q4 2026
-- Positioning: *"Not a hype course. An open-source platform."*
+- Positioning: *"Not a hype course. Open matching infrastructure."*
 
 ---
 
@@ -84,11 +91,23 @@ The world's first open multimodal content network for AI agents.
                               [Purchase → Revenue Share]
 ```
 
-### 4-Layer Architecture
-1. **Creator Layer** — Upload APIs + Open-source SDK
+### 5-Layer Universal Matching Architecture
+1. **Upload Layer** — Anyone uploads (individuals / creators / businesses / governments / AI agents)
 2. **Intelligence Layer** — Vector search + multimodal metadata
-3. **Monetization Layer** — Ads + affiliate + B2B subscriptions
-4. **Human UX Layer** — High-conversion frontend for the final click
+3. **Matching Layer** ⭐ NEW — Auto-routes each upload to commerce, ads, video platforms, scouts, gov tenders, AI training markets
+4. **Monetization Layer** — 3-Layer revenue: internal views + external matching + AI discovery
+5. **Human UX Layer** — High-conversion frontend for the final click
+
+### 4-Way Connectivity Matrix
+
+|              | → Consumer (C)     | → Business (B)        | → Government (G)     | → AI Agent          |
+|--------------|--------------------|----------------------|----------------------|---------------------|
+| **Consumer (C)** | C2C recommendation | C2B freelance/supply | C2G civic input      | C2AI training data  |
+| **Business (B)** | B2C commerce       | B2B SaaS/wholesale   | B2G procurement      | B2AI ads/citation   |
+| **Government (G)** | G2C public info  | G2B grants/R&D       | G2G inter-agency     | G2AI policy data    |
+| **AI Agent**    | AI2C recommendation | AI2B matching        | AI2G analytics       | AI2AI knowledge swap |
+
+→ Revenue flows across **all 16 cells**. Not a one-way platform — an n×n exchange.
 
 ---
 
@@ -186,24 +205,47 @@ M12+: Anthropic/OpenAI reach out first
 
 ---
 
-## 9. Business Model — 6 Revenue Streams
+## 9. Business Model — 3-Layer Monetization
+
+### One uploader = three revenue streams in parallel
+
+```
+Layer 1. Internal (YouTube model)
+  └─ View-based ads / subscriptions / tips / in-video affiliate
+
+Layer 2. External Matching (Talent Agency model)  ⭐ Neuroa's edge
+  └─ Commerce listings (Coupang/Amazon/11st/Shopify)
+  └─ Brand/advertiser licensing
+  └─ Cross-platform redistribution (TikTok/Instagram/X)
+  └─ Talent scouting (creators, writers, researchers)
+  └─ Government tenders (B2G/C2G)
+
+Layer 3. AI Discovery (AI Search Engine model)  ⭐ New revenue category
+  └─ Chat AI citation pay-per-call
+  └─ AI training data licensing
+  └─ Product placement inside AI answers
+```
+
+### 7 Platform Revenue Streams
 
 | Stream | Mechanism | Margin |
 |--------|-----------|--------|
 | Ads | In/around video ads | 45% |
 | Affiliate | Purchase commissions | 30% |
-| **B2B Seller Subscription** | Starter/Pro/Business/Enterprise | 70%+ |
+| **Matching Fees** ⭐ | Success-based external routing | 25% |
+| B2B Subscription | Starter/Pro/Business/Enterprise | 70%+ |
 | API Fees | Enterprise usage tier | 70%+ |
-| Data Licensing | Anonymized AI recommendation dataset | 80%+ |
-| Premium Verification | Verified seller/AI badges | 90%+ |
+| Data Licensing | Anonymized AI rec/training data | 80%+ |
+| Premium Verification | Verified badges | 90%+ |
 
 ### Revenue per 1,000 views
 ```
-YouTube  : $1 ~ $10
-Neuroa   : $1 ~ $10 (ads)
-         + $30 ~ $300 (affiliate)
-         + $1 ~ $5 (data)
-= 5 to 30x revenue potential
+YouTube  : $1 ~ $10                              (internal only)
+Neuroa   : $1 ~ $10   (Layer 1: internal ads)
+         + $30 ~ $300 (Layer 1: in-video affiliate)
+         + $20 ~ $200 (Layer 2: external matching)  ⭐
+         + $5 ~ $50   (Layer 3: AI citation/training) ⭐
+= 5 to 50x revenue potential
 ```
 
 ---
